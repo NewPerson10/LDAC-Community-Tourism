@@ -15,7 +15,7 @@
         width: 1339px;
         height: 150px;
         position: absolute;
-        background-color: #17f56532;
+        background-color: #4ea0e47e;
         border-radius:20px;
         z-index: 1;
         left: 13px;
@@ -177,13 +177,13 @@
     }
     #img1{
         width: 200px;
+        float: left;
         margin-left: -400px;
         position: absolute;
         margin-top: -400px;
     }
     #img2{
         margin-top: 70px;
-        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.751));
     }
 
     #tourism{

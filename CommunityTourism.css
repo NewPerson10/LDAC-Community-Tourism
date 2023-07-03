@@ -1,0 +1,333 @@
+@media screen and  (min-width: 100px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    #top{
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 1363px;
+        z-index: -2;
+    }
+    .taskbar{
+        width: 1339px;
+        height: 150px;
+        position: absolute;
+        background-color: #17f56532;
+        border-radius:20px;
+        z-index: 1;
+        left: 13px;
+        top: 25px;
+    }
+    .taskbar img{
+        width: 180px;
+        margin: 10px;
+    }
+    .logo-text{
+        position: absolute;
+        top: 35%;
+        left: 15%;
+        font-size: 300%;
+        color:#000;
+    }
+    .search{
+        position: absolute;
+        height: 60px;
+        width: 650px;
+        top: 7.5%;
+        left: 30%;
+    
+    }
+    #search-bar{
+        position: absolute;
+        top: 20%;
+        height: 100px;
+        width: 800px;
+        background-color: #ffffffdd;
+        border: 1px solid black;
+        border-color: #4ea0e422;
+        border-radius: 30px;
+        padding-left: 50px;
+        font-size: 300%;
+    }
+    #search-button{
+        width: 70px;
+        height: 70px;
+        top: 35%;
+        position: absolute;
+        left: 730px;
+        background-color: #357ace00;
+        border: 1px solid black;
+        border-color: #357ace00;
+        z-index: 8;
+    }
+    #search-button img{
+        width: 70px;
+        height: 70px;
+    }
+    #suggestions {
+    list-style-type: none;
+    background-color: #fffffffd;
+    width: 790px;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 25px;
+    margin-top: 30vh;
+    display: none;
+    border-radius: 20px;
+    text-decoration: none ;
+    z-index: 9;
+    }
+    #suggestions li {
+    background-color: #0045bba7;
+    height: 150px;
+    width: 750px;
+    padding: 11px;
+    padding-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom:25px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    z-index: 9;
+    }
+    #suggestions li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 350%;
+    width: 200%;
+    height: 200%;
+    font-weight: bolder;
+    z-index: 9;
+    }
+    
+    #suggestions li:hover {
+    background-color: #0045bb;
+    }
+    .search-bar-active #suggestions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        display: block; /* Show the suggestions box when search bar is active */
+    }
+    
+
+
+    #menubtn{
+        width: 200px;
+        height: 200px;
+        background: #4ea0e47e;
+        text-align: center;
+        position: fixed;
+        right: 60px;
+        top: 35vh;
+        border-radius: 3px;
+        z-index: 8;
+        cursor: pointer;
+        border-radius: 20px;
+        transition: 0.5s;
+    }
+    #menubtn img{
+        width: 120px;
+        margin-top: 55px;
+    }
+    
+    #SideNav{
+        width: 450px;
+        height: 350vh;
+        position: fixed;
+        right: -450px;
+        top: 0;
+        background: #357ace;
+        z-index: 7;
+        transition: 0.5s;
+        text-align: left;
+        border-radius: 10px;
+    }
+    #SideNav nav ul{
+        padding-top: 260px;
+    }
+    
+    #SideNav nav ul li{
+        
+        list-style: none;
+        margin: 150px 50px;
+        
+    }
+    #SideNav nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 300%;
+        font-weight: bolder;
+        
+    }
+
+
+
+    .content{
+        margin-top: 50px;
+        width: 1363px;
+        text-align: center;
+        height: 1100px;
+        font-size: 300%;
+        color: #18c354;
+    }
+    #img1{
+        width: 200px;
+        margin-left: -400px;
+        position: absolute;
+        margin-top: -400px;
+    }
+    #img2{
+        margin-top: 70px;
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.751));
+    }
+
+    #tourism{
+        width: 1323px;
+        background-color: #17f56532;
+        height: 3000px;
+        margin-left: 20px;
+        border-radius: 100px;
+    }
+    #tourismtxt1{
+        font-size: 400%;
+        text-align: center;
+        padding-top: 100px;
+        font-weight: bolder;
+    }
+    #tourismtxt2{
+        font-size: 300%;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: lighter;
+    }
+    .tour{
+        width: 1323px;
+        height: 2700px;
+        border-radius: 100px;
+        padding-top: 80px;
+    }
+    .CTS{
+        display: inline-block;
+        width: 600px;
+        height: 600px;
+        margin-left: 30px;
+        background-color: #fff;
+        position: absolute;
+        margin-top: 70px;
+        border-radius: 100px;
+    }
+    .CTS img{
+        width: 400px;
+        margin-left: 90px;
+    }
+    .CTS h4{
+        font-size: 300%;
+        text-align: center;
+    }
+    .CTS button{
+        width: 200px;
+        height: 75px;
+        border-radius: 20px;
+        margin-left: 200px;
+        margin-top: 30px;
+        background-color: #4ea0e47e;
+        border: none;
+    }
+    .CTS button a{
+        text-decoration: none;
+        font-size: 300%;
+        font-weight: bolder;
+    }
+    .CTS1{
+        display: inline-block;
+        width: 600px;
+        height: 600px;
+        margin-left: 691.5px;
+        background-color: #fff;
+        position: absolute;
+        margin-top: 70px;
+        border-radius: 100px;
+        
+    }
+    .CTS2{
+        display: inline-block;
+        width: 600px;
+        height: 600px;
+        margin-left: 30px;
+        background-color: #fff;
+        position: absolute;
+        margin-top: 730px;
+        border-radius: 100px;
+        
+    }
+    .CTS3{
+        display: inline-block;
+        width: 600px;
+        height: 600px;
+        margin-left: 691.5px;
+        background-color: #fff;
+        position: absolute;
+        margin-top: 730px;
+        border-radius: 100px;
+    }
+    .CTS4{
+        display: inline-block;
+        width: 600px;
+        height: 600px;
+        margin-left: 30px;
+        background-color: #fff;
+        position: absolute;
+        margin-top: 1390px;
+        border-radius: 100px;
+        
+    }
+    .CTS5{
+        display: inline-block;
+        width: 600px;
+        height: 600px;
+        margin-left: 691.5px;
+        background-color: #fff;
+        position: absolute;
+        margin-top: 1390px;
+        border-radius: 100px;
+        
+    }
+    .CTS6{
+        display: inline-block;
+        width: 600px;
+        height: 600px;
+        margin-left: 30px;
+        background-color: #fff;
+        position: absolute;
+        margin-top: 2050px;
+        border-radius: 100px;
+        
+    }
+    .CTS7{
+        display: inline-block;
+        width: 600px;
+        height: 600px;
+        margin-left: 691.5px;
+        background-color: #fff;
+        position: absolute;
+        margin-top: 2050px;
+        border-radius: 100px;
+        
+    }
+    .CTS8{
+        display: inline-block;
+        width: 600px;
+        height: 600px;
+        margin-left: 30px;
+        background-color: #fff;
+        position: absolute;
+        margin-top: 1390px;
+        border-radius: 100px;
+        
+    }
+}

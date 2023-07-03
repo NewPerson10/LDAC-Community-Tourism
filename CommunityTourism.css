@@ -198,12 +198,10 @@
         text-align: center;
         padding-top: 20px;
         font-weight: lighter;
-        background-color: #ffffffcd;
         height: 70px;
         border-radius: 50px;
-        width: 1000px;
-        margin-left: 161.5px;
-        margin-top: 40px;
+        margin-top: 20px;
+        color: #939191;
     }
     .tour{
         width: 1323px;

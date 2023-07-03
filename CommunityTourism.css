@@ -183,7 +183,7 @@
     #tourism{
         width: 1323px;
         background-color: #17f56532;
-        height: 3000px;
+        height: 4000px;
         margin-left: 20px;
         border-radius: 100px;
     }
@@ -198,12 +198,22 @@
         text-align: center;
         padding-top: 20px;
         font-weight: lighter;
+        background-color: #ffffffcd;
+        height: 70px;
+        border-radius: 50px;
+        width: 1000px;
+        margin-left: 161.5px;
+        margin-top: 40px;
     }
     .tour{
         width: 1323px;
         height: 2700px;
         border-radius: 100px;
         padding-top: 80px;
+    }
+    #ad{
+        font-size: 400%;
+        margin-left: 50px;
     }
     .CTS{
         display: inline-block;
@@ -248,6 +258,28 @@
         border-radius: 100px;
         
     }
+    .CTS1 img{
+        width: 400px;
+        margin-left: 90px;
+    }
+    .CTS1 h4{
+        font-size: 300%;
+        text-align: center;
+    }
+    .CTS1 button{
+        width: 200px;
+        height: 75px;
+        border-radius: 20px;
+        margin-left: 200px;
+        margin-top: 30px;
+        background-color: #4ea0e47e;
+        border: none;
+    }
+    .CTS1 button a{
+        text-decoration: none;
+        font-size: 300%;
+        font-weight: bolder;
+    }
     .CTS2{
         display: inline-block;
         width: 600px;
@@ -259,6 +291,28 @@
         border-radius: 100px;
         
     }
+    .CTS2 img{
+        width: 400px;
+        margin-left: 90px;
+    }
+    .CTS2 h4{
+        font-size: 300%;
+        text-align: center;
+    }
+    .CTS2 button{
+        width: 200px;
+        height: 75px;
+        border-radius: 20px;
+        margin-left: 200px;
+        margin-top: 30px;
+        background-color: #4ea0e47e;
+        border: none;
+    }
+    .CTS2 button a{
+        text-decoration: none;
+        font-size: 300%;
+        font-weight: bolder;
+    }
     .CTS3{
         display: inline-block;
         width: 600px;
@@ -269,59 +323,153 @@
         margin-top: 730px;
         border-radius: 100px;
     }
+    .CTS3 img{
+        width: 400px;
+        margin-left: 90px;
+    }
+    .CTS3 h4{
+        font-size: 300%;
+        text-align: center;
+    }
+    .CTS3 button{
+        width: 200px;
+        height: 75px;
+        border-radius: 20px;
+        margin-left: 200px;
+        margin-top: 30px;
+        background-color: #4ea0e47e;
+        border: none;
+    }
+    .CTS3 button a{
+        text-decoration: none;
+        font-size: 300%;
+        font-weight: bolder;
+    }
+
+    #well{
+        width: 1200px;
+        font-size: 400%;
+        margin-left: 50px;
+        margin-top: 1470px;
+        position: absolute;
+    }
+
     .CTS4{
         display: inline-block;
-        width: 600px;
-        height: 600px;
+        width: 1260px;
+        height: 400px;
         margin-left: 30px;
         background-color: #fff;
         position: absolute;
-        margin-top: 1390px;
-        border-radius: 100px;
+        margin-top: 1600px;
+        border-radius: 50px;
         
+    }.CTS4 img{
+        width: 280px;
+        margin-left: 90px;
+        margin-top: 50px;
+        background-color: #0045bb14;
+        padding: 10px;
+        border-radius: 40px;
     }
+    .CTS4 h4{
+        font-size: 400%;
+        text-align: center;
+        position: absolute;
+        margin-left: 500px;
+        margin-top: -270px;
+    }
+    .CTS4 h5{
+        font-size: 250%;
+        text-align: center;
+        position: absolute;
+        margin-left: 500px;
+        margin-top: -170px;
+        color: #00000067;
+    }
+    .CTS4 h6{
+        font-size: 200%;
+        text-align: center;
+        position: absolute;
+        margin-left: 500px;
+        margin-top: -90px;
+        color: #c0c51a;
+    }
+    .CTS4 button{
+        width: 200px;
+        height: 75px;
+        border-radius: 20px;
+        background-color: #4ea0e47e;
+        border: none;
+        position: absolute;
+        margin-top: 275px;
+        margin-left: 600px;
+    }
+    .CTS4 button a{
+        text-decoration: none;
+        font-size: 300%;
+        font-weight: bolder;
+    }
+
+
+
     .CTS5{
         display: inline-block;
-        width: 600px;
-        height: 600px;
-        margin-left: 691.5px;
-        background-color: #fff;
-        position: absolute;
-        margin-top: 1390px;
-        border-radius: 100px;
-        
-    }
-    .CTS6{
-        display: inline-block;
-        width: 600px;
-        height: 600px;
+        width: 1260px;
+        height: 400px;
         margin-left: 30px;
         background-color: #fff;
         position: absolute;
-        margin-top: 2050px;
-        border-radius: 100px;
+        margin-top: 2060px;
+        border-radius: 50px;
         
+    }.CTS5 img{
+        width: 280px;
+        margin-left: 90px;
+        margin-top: 50px;
+        background-color: #0045bb14;
+        padding: 10px;
+        border-radius: 40px;
     }
-    .CTS7{
-        display: inline-block;
-        width: 600px;
-        height: 600px;
-        margin-left: 691.5px;
-        background-color: #fff;
+    .CTS5 h4{
+        font-size: 400%;
+        text-align: center;
         position: absolute;
-        margin-top: 2050px;
-        border-radius: 100px;
-        
+        margin-left: 500px;
+        margin-top: -270px;
     }
-    .CTS8{
-        display: inline-block;
-        width: 600px;
-        height: 600px;
-        margin-left: 30px;
-        background-color: #fff;
+    .CTS5 h5{
+        font-size: 250%;
+        text-align: center;
         position: absolute;
-        margin-top: 1390px;
-        border-radius: 100px;
-        
+        margin-left: 500px;
+        margin-top: -170px;
+        color: #00000067;
     }
+    .CTS5 h6{
+        font-size: 200%;
+        text-align: center;
+        position: absolute;
+        margin-left: 500px;
+        margin-top: -90px;
+        color: #c0c51a;
+    }
+    .CTS5 button{
+        width: 200px;
+        height: 75px;
+        border-radius: 20px;
+        background-color: #4ea0e47e;
+        border: none;
+        position: absolute;
+        margin-top: 275px;
+        margin-left: 600px;
+    }
+    .CTS5 button a{
+        text-decoration: none;
+        font-size: 300%;
+        font-weight: bolder;
+    }
+
+
+    
 }

@@ -31,20 +31,21 @@
         left: 15%;
         font-size: 300%;
         color:#000;
+        display: none;
     }
     .search{
         position: absolute;
         height: 60px;
-        width: 650px;
+        width: 890px;
         top: 7.5%;
-        left: 30%;
+        left: 16%;
     
     }
     #search-bar{
         position: absolute;
         top: 20%;
         height: 100px;
-        width: 800px;
+        width: 1040px;
         background-color: #4ea0e461;
         border: 1px solid black;
         border-color: #4ea0e422;
@@ -57,7 +58,7 @@
         height: 70px;
         top: 35%;
         position: absolute;
-        left: 730px;
+        left: 930px;
         background-color: #357ace00;
         border: 1px solid black;
         border-color: #357ace00;

@@ -45,7 +45,7 @@
         top: 20%;
         height: 100px;
         width: 800px;
-        background-color: #17f56532;
+        background-color: #4ea0e461;
         border: 1px solid black;
         border-color: #4ea0e422;
         border-radius: 30px;
@@ -119,7 +119,7 @@
     #menubtn{
         width: 200px;
         height: 200px;
-        background: #17f56557;
+        background: #4ea0e47e;
         text-align: center;
         position: fixed;
         right: 60px;
@@ -141,7 +141,7 @@
         position: fixed;
         right: -450px;
         top: 0;
-        background: #17f565;
+        background: #4ea0e4f9;
         z-index: 7;
         transition: 0.5s;
         text-align: left;
